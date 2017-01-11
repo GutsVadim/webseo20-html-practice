@@ -1,0 +1,14 @@
+{
+  "name": "psd",
+  "authors": [
+    "Вадим <guts.vadim@gmail.com>"
+  ],
+  "description": "Psd",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Gotham Medium";
+    font-weight: 400;
+    font-style: normal;
+    src: url(../font/ufonts.com_gotham-medium.woff) format('woff');
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+header.main {
+    /*background-color: #ffffff;*/
+
+}
+header.main .navigation {
+    width: 980px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+header.main .navigation .logo {
+    display: inline-block;
+    padding: 14px 0 15px;
+}
+header.main .navigation nav.main {
+    float: right;
+}
+header.main .navigation nav.main ul li {
+    display: block;
+    float: left;
+}
+header.main .navigation nav.main ul li a {
+    display: block;
+    padding: 27px 11px;
+
+    color: #96a6a7;
+    font-family: "Gotham Medium", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+header.main .navigation nav.main ul li.menu-btn a {
+    transition: all 200ms;
+}
+header.main .navigation nav.main ul li.search-btn a {
+    padding: 18px 25px;
+    background-color: #e2dee0;
+    color: #ffffff;
+    font-size: 27px;
+}
+header.main .navigation nav.main ul li.search-btn a:hover {
+    background-color: #d1cdcf;
+}
+header.main .navigation nav.main ul li.login-btn a {
+    color: #ffffff;
+    background-color: #e94e38;
+    padding: 27px 49px;
+    position: relative;
+}
+header.main .navigation nav.main ul li.login-btn a:hover {
+    background-color: #d64635;
+}
+header.main .navigation nav.main ul li.login-btn .fa {
+    font-size: 18px;
+}
+header.main:after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #e94e38;
+    height: 74px;
+    width: 50%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+header.main:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #ffffff;
+    height: 74px;
+    width: 50%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
